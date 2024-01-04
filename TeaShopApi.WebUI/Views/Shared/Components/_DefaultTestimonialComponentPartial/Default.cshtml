@@ -1,0 +1,45 @@
+﻿@model List<TeaShopApi.WebUI.Dtos.TestimonialDtos.ResultTestimonialDto>
+
+
+<div class="clients_section layout_padding">
+    <div id="custum_slider" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+                <div class="container">
+                    <h1 class="clients_taital">Müşteri Yorumları</h1>
+                    <p class="clients_text">
+                        Harika bir mekan
+                    </p>
+                    <div class="client_img"><img src="https://pbs.twimg.com/profile_images/1404479261566713856/_MklDkhx_400x400.jpg" style="height:200px;"></div>
+                    <h1 class="louis_text">Engin</h1>
+                  
+                    <div class="border"></div>
+                </div>
+            </div>
+                @foreach(var item in Model)
+                {
+                    
+              <div class="carousel-item">  
+                <div class="container">
+                    <h1 class="clients_taital">Müşteri Yorumları</h1>
+                    <p class="clients_text">
+                        @item.TestimonialComment
+                    </p>
+                        <div class="client_img"><img src="@item.TestimonialImageUrl" style="height:200px;"></div>
+                    <h1 class="louis_text">@item.TestimonialName</h1>
+                    
+                    <div class="border"></div>
+                </div>
+                
+            </div>
+				}
+        </div>
+        <a class="carousel-control-prev" href="#custum_slider" role="button" data-slide="next">
+            <i class="fa fa-angle-left"></i>
+        </a>
+        <a class="carousel-control-next" href="#custum_slider" role="button" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+        </a>
+    </div>
+</div>

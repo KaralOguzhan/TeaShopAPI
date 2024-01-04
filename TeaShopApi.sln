@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeaShopApi", "TeaShopApi\TeaShopApi.csproj", "{4842F2C3-C40E-4719-8DEA-11BFE27829F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeaShopApi.EntityLayer", "TeaShopApi.EntityLayer\TeaShopApi.EntityLayer.csproj", "{C8C5E96C-3AE9-462A-9AAA-D65985766DC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeaShopApi.DataAccessLayer", "TeaShopApi.DataAccessLayer\TeaShopApi.DataAccessLayer.csproj", "{9B869A24-7BAD-483B-900A-8826EFB088D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeaShopApi.BusinesLayer", "TeaShopApi.BusinesLayer\TeaShopApi.BusinesLayer.csproj", "{1928343D-8C88-4E12-9661-FDA38ED78DFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeaShopApi.DtoLayer", "TeaShopApi.DtoLayer\TeaShopApi.DtoLayer.csproj", "{204C43FA-3C4A-4BB7-9870-7099B87B1828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeaShopApi.WebUI", "TeaShopApi.WebUI\TeaShopApi.WebUI.csproj", "{F44E611B-9B89-4DD0-B177-64DA7E2243C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4842F2C3-C40E-4719-8DEA-11BFE27829F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4842F2C3-C40E-4719-8DEA-11BFE27829F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4842F2C3-C40E-4719-8DEA-11BFE27829F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4842F2C3-C40E-4719-8DEA-11BFE27829F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8C5E96C-3AE9-462A-9AAA-D65985766DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8C5E96C-3AE9-462A-9AAA-D65985766DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8C5E96C-3AE9-462A-9AAA-D65985766DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8C5E96C-3AE9-462A-9AAA-D65985766DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B869A24-7BAD-483B-900A-8826EFB088D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B869A24-7BAD-483B-900A-8826EFB088D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B869A24-7BAD-483B-900A-8826EFB088D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B869A24-7BAD-483B-900A-8826EFB088D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1928343D-8C88-4E12-9661-FDA38ED78DFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1928343D-8C88-4E12-9661-FDA38ED78DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1928343D-8C88-4E12-9661-FDA38ED78DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1928343D-8C88-4E12-9661-FDA38ED78DFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{204C43FA-3C4A-4BB7-9870-7099B87B1828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204C43FA-3C4A-4BB7-9870-7099B87B1828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204C43FA-3C4A-4BB7-9870-7099B87B1828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204C43FA-3C4A-4BB7-9870-7099B87B1828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F44E611B-9B89-4DD0-B177-64DA7E2243C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44E611B-9B89-4DD0-B177-64DA7E2243C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44E611B-9B89-4DD0-B177-64DA7E2243C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44E611B-9B89-4DD0-B177-64DA7E2243C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0ED44309-C93E-44E9-BA8D-CBFB93ED13E0}
+	EndGlobalSection
+EndGlobal

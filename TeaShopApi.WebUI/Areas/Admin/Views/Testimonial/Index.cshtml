@@ -1,0 +1,47 @@
+﻿@model List<TeaShopApi.WebUI.Dtos.TestimonialDtos.ResultTestimonialDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="row">
+    <!-- [ sample-page ] start -->
+    <div class="col-sm-12">
+        <div class="card">
+
+            <div class="card-header">
+                <h5>İçecek İşlemleri</h5>
+
+            </div>
+            <div class="card-body">
+                <p>
+
+                    <table class="table table-bordered">
+                        <tr>
+                            <th>#</th>
+                            <th>Referans Adı</th>
+                            <th>Referans Yorum</th>
+                            <th>Referans Göster</th>
+                            <th>Sil</th>
+                            <th>Güncelle</th>
+                        </tr>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.TestimonialID</td>
+                                <td>@item.TestimonialName</td>
+                                <td>@item.TestimonialComment</td>
+								<td> <img style="height:150px" src="@item.TestimonialImageUrl" alt="@item.TestimonialName"></td>
+                                <td><a href="/Admin/Testimonial/DeleteTestimonial/@item.TestimonialID" class="btn btn-outline-danger">Sil</a></td>
+                                <td><a href="/Admin/Testimonial/UpdateTestimonial/@item.TestimonialID" class="btn btn-outline-success">Güncelle</a></td>
+                            </tr>
+                        }
+
+                    </table>
+                    <a href="/Admin/Testimonial/CreateTestimonial" class="btn btn-outline-primary">Yeni Referans Girişi</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- [ sample-page ] end -->
+</div>

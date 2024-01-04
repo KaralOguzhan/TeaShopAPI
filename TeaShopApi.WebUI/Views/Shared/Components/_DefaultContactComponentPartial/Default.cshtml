@@ -1,0 +1,39 @@
+﻿@model TeaShopApi.WebUI.Dtos.MessageDtos.CreateMessageDto
+
+<div class="contact_section layout_padding">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mail_main">
+                    <h1 class="contact_taital">Bizimle İletişine Geç!</h1>
+                    <form method="post">
+                        <div class="form-group">
+                            <input type="text" class="email-bt" placeholder="Name" asp-for="MessageSenderName" >
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="email-bt" placeholder="Email" asp-for="MessageEmail">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="email-bt" placeholder="Subject" asp-for="MessageSubject">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" asp-for="MessageDetail"></textarea>
+                        </div>
+						<div class="send_btn">
+							<div class="main_bt"><button class="btn">Gönder</button></div>
+						</div>
+                    </form>
+                    
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="map_main">
+                    <div class="map-responsive">
+                        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199153.52280353237!2d30.389870378125!3d38.74595280000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cf164b2467c3b7%3A0x464c4c52d039aab7!2zS29jYXRlcGUgQW7EsXTEsQ!5e0!3m2!1str!2str!4v1701814876651!5m2!1str!2str" width="600" height="600" frameborder="0" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
